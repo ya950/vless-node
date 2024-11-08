@@ -1,0 +1,1 @@
+json{ "inbounds": [{ "port": 3000, "protocol": "vless", "settings": { "clients": [{ "id": "8bd65b0a-d252-4d19-a995-b5f72c5c20a6", "flow": "xtls-rprx-direct" }], "decryption": "none" }, "streamSettings": { "network": "ws", "wsSettings": { "path": "/api" } } }], "outbounds": [{ "protocol": "freedom" }]}
